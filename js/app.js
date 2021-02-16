@@ -137,13 +137,11 @@ $("document").ready(function() {
     selectKeywords();
     
     arrayImages = [];
-  
- 
-  
   });
    
     $("#page-2").on("click", function(){
       // $(".photo-template2").html("");
+      console.log('test');
       $("#menu").html("");
       $(".main-1").hide();
       $(".main-2").show();
@@ -155,9 +153,29 @@ $("document").ready(function() {
       // $(".photo-template2").html("");
     });
 
+// function sortOnTitle() {
+//   // function compare( a, b ) {
+//   //   if ( a.title < b.title ){
+//   //     return -1;
+//   //   }
+//   //   if ( a.title > b.title ){
+//   //     return 1;
+//   //   }
+//   //   return 0;
+//   // }
+//   arrayImages.sort ((a,b) => { 
+//     if ( a.title < b.title ){
+//        return -1; 
+//     } 
+//     if ( a.title > b.title ){ 
+//       return 1; 
+//     } 
+//     return 0; 
+//   });;
+//   console.log(arrayImages);
 
- 
-
-
-
-
+//   $('main').children().not(':first-child').remove()  arrayImages.forEach((value, i) => {
+//     arrayImages[i].renderImages();
+//   })
+// }
+// sortOnTitle();
